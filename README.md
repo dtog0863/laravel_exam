@@ -18,7 +18,7 @@
 
 ##ER図
 
-![ER図](./er-chart.dwawio.svg)
+![ER図](./er-chart.drawio.svg)
 
 ##URL
 　・開発環境:http://localhost/
