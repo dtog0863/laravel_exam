@@ -1,0 +1,93 @@
+body{
+    font-family: "Inika";
+}
+
+.contact__content{
+    margin: 0 auto;
+}
+
+.section__title{
+    margin: 0 auto;
+    text-align: center;
+    color: #877171;
+}
+
+.confirm__table{
+    margin: 0 auto;
+    border-spacing: 15px;
+}
+
+.confirm__table td{
+    padding:5px 20px;
+}
+
+.confirm__table ::placeholder{
+    color: #BEB1A6;
+}
+
+.confirm__table-header{
+    text-align: left;
+    color: #877171;
+    font-size: 14px;
+}
+
+label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+label::before,
+label::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+label::before {
+    background-color: #fff;
+    border: 1px solid #877171;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    left: 5px;
+}
+
+label::after {
+    background-color: #8B7969;
+    border-radius: 50%;
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+    left: 6px
+}
+
+input:checked+label::after {
+    opacity: 1;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+.confirm__submit{
+    margin: 0 auto;
+    text-align: center;
+}
